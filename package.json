@@ -1,5 +1,5 @@
 {
-  "name": "@qasper/mcp-server",
+  "name": "@qasperai/mcp-server",
   "version": "0.1.0",
   "description": "MCP server for Qasper — book local service businesses (barbers, dentists, plumbers, etc.) via AI agents.",
   "type": "module",
