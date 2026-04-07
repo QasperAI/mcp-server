@@ -1,4 +1,4 @@
-# @qasper/mcp-server
+# @qasperai/mcp-server
 
 MCP server for [Qasper](https://qasper.ai) — discover and book local service businesses (barbers, dentists, plumbers, hair salons, mechanics, and more) directly from any MCP-compatible AI assistant.
 
