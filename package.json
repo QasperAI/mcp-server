@@ -1,6 +1,7 @@
 {
   "name": "@qasperai/mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.qasper-ai/qasper",
   "description": "MCP server for Qasper — book local service businesses (barbers, dentists, plumbers, etc.) via AI agents.",
   "type": "module",
   "bin": {
