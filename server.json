@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.qasperai/qasper",
+  "description": "MCP server for Qasper — book local service businesses (barbers, dentists, plumbers, etc.) via AI agents.",
+  "repository": {
+    "url": "https://github.com/QasperAI/mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@qasperai/mcp-server",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
