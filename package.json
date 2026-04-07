@@ -1,0 +1,43 @@
+{
+  "name": "@qasper/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for Qasper — book local service businesses (barbers, dentists, plumbers, etc.) via AI agents.",
+  "type": "module",
+  "bin": {
+    "qasper-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "qasper",
+    "booking",
+    "local-services",
+    "agents"
+  ],
+  "author": "Qasper",
+  "license": "MIT",
+  "homepage": "https://qasper.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qasper-ai/mcp-server"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
