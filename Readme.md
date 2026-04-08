@@ -16,9 +16,23 @@ This package is a thin stdio shim that proxies to Qasper's hosted MCP server at 
 
 ## Install
 
-### Claude Desktop
+### Remote (HTTP)
 
-Add to `claude_desktop_config.json`:
+The server is hosted at `https://qasper.ai/mcp` and can be used directly by any MCP client that supports remote (HTTP) servers — no install required:
+
+```json
+{
+  "mcpServers": {
+    "qasper": {
+      "url": "https://qasper.ai/mcp"
+    }
+  }
+}
+```
+
+### Claude Desktop (stdio)
+
+For clients that only support stdio, add to `claude_desktop_config.json`:
 
 ```json
 {
