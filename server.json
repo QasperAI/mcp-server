@@ -6,12 +6,18 @@
     "url": "https://github.com/QasperAI/mcp-server",
     "source": "github"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qasper.ai/mcp"
+    }
+  ],
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@qasperai/mcp-server",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "transport": {
         "type": "stdio"
       }
